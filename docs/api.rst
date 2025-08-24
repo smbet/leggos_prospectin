@@ -1,4 +1,4 @@
 .. autosummary::
    :toctree: generated
 
-   prospectin
+   prospectinclumps
