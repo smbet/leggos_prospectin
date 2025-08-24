@@ -2,7 +2,7 @@
 
 # -- Project information
 
-project = 'leggos prospectin'
+project = 'leggos_prospectin'
 copyright = '2025, LEGGOS Collaboration'
 author = 'Sierra'
 
