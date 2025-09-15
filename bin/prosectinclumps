@@ -1,0 +1,9 @@
+#!/usr/bin/env python
+
+__requires__ = 'leggos_prospectin'
+
+from prospectinclumps import prospectin_fits
+from prospectinclumps import prospectin_plots
+
+if __name__ == '__main__':
+    pass
