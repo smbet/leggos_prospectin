@@ -3,7 +3,15 @@ input magnitudes to a fitted SED with star formation histories and plots
 with this prospector-based code. This is just the bare bones version, 
 for more info there's also a readthedocs.
 
-First create a conda environment and install all the basic libraries like astropy, etc. using the following command:
+To download and install the package, first clone this repository:
+
+git clone https://github.com/smbet/leggos_prospectin/.git
+
+Then move to the leggos_prospectin directory and install it by running:
+
+python setup.py
+
+Our next step is to create a conda environment and install all the basic libraries like astropy, etc. using the following command:
 
 conda create --name prospectin --file spec_list.txt
 
@@ -72,7 +80,7 @@ and don't want to fit every clump every time you run the script
 
 So the full completed text entered into the command line will look something like:
 
-python prospectin_fits.py 2.763 "./1527/eye_fit_phot/clumpFluxes1527_NRConly.fits" "./1527/michael_clumps/hfives/"
+prospectin_fits 2.763 "./1527/eye_fit_phot/clumpFluxes1527_NRConly.fits" "./1527/michael_clumps/hfives/"
 
 Important Note: right now unless the filters are the same 6 from JWST and are named exactly like this
 in the magnitude table then it won't work (sorry):
@@ -90,7 +98,7 @@ which you can look at to inspect how well your fit has converged.
 
 Now that you've made your fits that you are hopefully happy with, you can use
 them to make some pretty plots to visualize the data.
-For this we're going to use prospectin_plots.py. For prospectin_plots you'll need the following arguments:
+For this we're going to use prospectin_plots. For prospectin_plots you'll need the following arguments:
 
 redshift, type=float, galaxy redshift
 input_mag_path, type=str, input magnitudes fits filepath, example:
@@ -112,7 +120,7 @@ of prospectin_fits this is useful when you're in the code fiddling with things (
 
 So the full completed text entered into the command line will look something like:
 
-python prospectin_plots.py 2.762 "/1527/eye_fit_phot/clumpFluxes1527_NRConly.fits" "/1527/hfives/" "/1527/S1527_F090W_noBCG.fits" "/1527/clumpRegions_F090W_F444W.reg" "/testoutdir/"
+prospectin_plots 2.762 "/1527/eye_fit_phot/clumpFluxes1527_NRConly.fits" "/1527/hfives/" "/1527/S1527_F090W_noBCG.fits" "/1527/clumpRegions_F090W_F444W.reg" "/testoutdir/"
 
 Once finished, the prospectin_plots script outputs a plethora of plots. Specifically:
 
