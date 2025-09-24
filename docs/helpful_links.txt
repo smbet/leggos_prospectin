@@ -1,0 +1,9 @@
+Prospector docs and example notebooks:
+
+https://prospect.readthedocs.io/en/stable/index.html
+
+https://github.com/bd-j/prospector/blob/main/demo/InteractiveDemo.ipynb
+
+Review of SGAS 1527:
+
+https://docs.google.com/document/d/159OpW9Qsq8T0DAKFuB6BHR7l2hGUCyKIPrzn0HMBEJk/edit?pli=1&tab=t.0

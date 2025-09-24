@@ -1,0 +1,12 @@
+stuff that needs to be done next:
+
+Calculate t_50 correctly and have prospectin_plots.py make a sSFR versus t_50 plot. Probably highest priority.
+Implement Julissa+Taylor's code to make color-mapped ellipse regions instead of the ugly half measure I wrote.
+Fix plot sizes.
+Make sure all the plots are being closed in the plot script.
+
+Plots need error bars.
+
+Longer term goal expand this so it can handle other filters and magnitude file naming formats and magnitude units.
+
+Lastly, Spectra:)

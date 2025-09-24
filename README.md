@@ -1,7 +1,8 @@
 Here are steps for setting up a conda environment and going from some 
 input magnitudes to a fitted SED with star formation histories and plots
-with this prospector-based code. This is just the bare bones version, 
-for more info there's also a readthedocs.
+with this prospector-based code. For additional resources like an overview 
+of prospector (the package that fits the SEDs based on the magnitudes we give it) and SGAS 1527, see the files found under docs/ For anyone taking over this code the next steps
+that need to be done are also found in the docs directory.
 
 To download and install the package, first clone this repository:
 
@@ -21,15 +22,15 @@ conda activate prospectin
 
 Next we need to install a bunch of more specialized packages using pip, so next enter:
 
-pip install adjusttext==1.3.0 astro-prospector==1.4.0 cmasher==1.8.0 contourpy==1.3.0 corner dynesty==2.1.5 emcee==3.1.6 fsps h5py==3.12.1 pyogrio==0.10.0 pyparsing==3.2.1 pyproj==3.6.1 pyregion regions==0.8
+`pip install adjusttext==1.3.0 astro-prospector==1.4.0 cmasher==1.8.0 contourpy==1.3.0 corner dynesty==2.1.5 emcee==3.1.6 fsps h5py==3.12.1 pyogrio==0.10.0 pyparsing==3.2.1 pyproj==3.6.1 pyregion regions==0.8`
 
 And then:
 
-python -m pip install astro-sedpy
+`python -m pip install astro-sedpy`
 
 My version info, for reference in case something goes wrong with the automatic setup from the file:
 
-Name                    Version                   Build  Channel
+`Name                    Version                   Build  Channel
 adjusttext                1.3.0                    pypi_0    pypi
 arrow                     1.3.0              pyhd8ed1ab_1    conda-forge
 astro-prospector          1.4.0                    pypi_0    pypi
@@ -52,11 +53,11 @@ pyproj                    3.6.1                    pypi_0    pypi
 pyregion                  2.2.0                    pypi_0    pypi
 python                    3.9.21          h5f1b60f_1_cpython    conda-forge
 regions                   0.8                      pypi_0    pypi
-scipy                     1.13.1           py39h3d5391c_0    conda-forge
+scipy                     1.13.1           py39h3d5391c_0    conda-forge`
 
 Next run this in your python-fsps directory:
 
-export SPS_HOME=$(pwd)/src/fsps/libfsps
+`export SPS_HOME=$(pwd)/src/fsps/libfsps`
 
 It's a command that needs to be run in order for FSPS to work (python-fsps just being
 a pythony way to access the fsps code, which is in fortran). You'll need to run that command in the python-fsps

@@ -1,5 +1,0 @@
-stuff that needs to be done next:
-
-Implement Julissa+Taylor's code to make color-mapped ellipse regions instead of the ugly half measure I wrote.
-Calculate t_50 correctly and have prospectin_plots.py make a sSFR versus t_50 plot.
-Fix plot sizes.
