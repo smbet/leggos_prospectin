@@ -71,11 +71,11 @@ We'll do this with the `prospectin_fits.py` script, which requires the following
 1. redshift, type=float, galaxy redshift
 
 2. input_mag_path, type=str,input magnitudes fits filepath, for example:
-"./1527/eye_fit_phot/clumpFluxes1527_NRConly.fits"
+`"./1527/eye_fit_phot/clumpFluxes1527_NRConly.fits"`
 
 3. input_h5_path, type=str, input h5 directory filepath (the directory where
  the files with the baysian sed fits that prosector made are stored), for example:
-"./1527/michael_clumps/hfives/"
+`"./1527/michael_clumps/hfives/"`
 
 it can also take the following optional arguments:
 
@@ -108,22 +108,22 @@ For this we're going to use `prospectin_plots`. For `prospectin_plots` you'll ne
 1. redshift, type=float, galaxy redshift
 
 2. input_mag_path, type=str, input magnitudes fits filepath, for example:
-"./1527/eye_fit_phot/clumpFluxes1527_NRConly.fits"
+`"./1527/eye_fit_phot/clumpFluxes1527_NRConly.fits"`
 
 3. input_h5_path, type=str, input h5 directory filepath (the directory where
  the files with the baysian sed fits that prosector made are stored), for example:
-"./1527/hfives/"
+`"./1527/hfives/"`
 
 4. input_image_path, type=str, filepath for fits image of objects that were observed, presumably one of the
 ones that magnitudes were pulled from, for example:
-"/1527/S1527_F090W_noBCG.fits"
+`"/1527/S1527_F090W_noBCG.fits"`
 
 5. reg_path, type=str, regions filepath so you can have the regions that were used to extract photometry shown
 overlaid on the image you gave it in input_image_path, for example:
-"/1527/clumpRegions_F090W_F444W.reg"
+`"/1527/clumpRegions_F090W_F444W.reg"`
 
 6. out_path, type=str, directory where you want the many plots that this script will make to be stored, for example:
-"/exampleoutdir/"
+`"/exampleoutdir/"`
 
 it also accepts the following optional arguments:
 
@@ -132,7 +132,7 @@ of prospectin_fits this is useful when you're in the code fiddling with things (
 
 So the full completed text entered into the command line will look something like:
 
-`prospectin_plots 2.762 "/1527/eye_fit_phot/clumpFluxes1527_NRConly.fits" "/1527/hfives/" "/1527/S1527_F090W_noBCG.fits" "/1527/clumpRegions_F090W_F444W.reg" "/testoutdir/"``
+`prospectin_plots 2.762 "/1527/eye_fit_phot/clumpFluxes1527_NRConly.fits" "/1527/hfives/" "/1527/S1527_F090W_noBCG.fits" "/1527/clumpRegions_F090W_F444W.reg" "/testoutdir/"`
 
 Once finished, the `prospectin_plots` script outputs a myriad of plots. Specifically:
 
