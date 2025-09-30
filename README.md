@@ -30,30 +30,28 @@ And then:
 
 My version info, for reference in case something goes wrong with the automatic setup from the file:
 
-`Name                    Version                   Build  Channel`
-`adjusttext                1.3.0                    pypi_0    pypi`
-`arrow                     1.3.0              pyhd8ed1ab_1    conda-forge`
-`astro-prospector          1.4.0                    pypi_0    pypi`
-`astropy                   6.0.1            py39h373d45f_0    conda-forge`
-`cmasher                   1.8.0                    pypi_0    pypi`
-`contourpy                 1.3.0                    pypi_0    pypi`
-`corner                    2.2.4.dev2+g6fba5cd          pypi_0    pypi`
-`dynesty                   2.1.5                    pypi_0    pypi`
-`emcee                     3.1.6                    pypi_0    pypi`
-`fsps                      0.4.8.dev36+g0150b9b          pypi_0    pypi`
-`h5py                      3.12.1                   pypi_0    pypi`
-`matplotlib                3.9.4                    pypi_0    pypi`
-`matplotlib-inline         0.1.7              pyhd8ed1ab_1    conda-forge`
-`numpy                     1.26.4           py39h7aa2656_0    conda-forge`
-`pandas                    2.2.3                    pypi_0    pypi`
-`pip                       24.3.1             pyh8b19718_2    conda-forge`
-`pyogrio                   0.10.0                   pypi_0    pypi`
-`pyparsing                 3.2.1                    pypi_0    pypi`
-`pyproj                    3.6.1                    pypi_0    pypi`
-`pyregion                  2.2.0                    pypi_0    pypi`
-`python                    3.9.21          h5f1b60f_1_cpython    conda-forge`
-`regions                   0.8                      pypi_0    pypi`
-`scipy                     1.13.1           py39h3d5391c_0    conda-forge`
+```
+Name                    Version                   Build  Channel
+adjusttext                1.3.0                    pypi_0    pypi
+arrow                     1.3.0              pyhd8ed1ab_1    conda-forge
+astro-prospector          1.4.0                    pypi_0    pypi
+astropy                   6.0.1            py39h373d45f_0    conda-forge
+cmasher                   1.8.0                    pypi_0    pypi
+contourpy                 1.3.0                    pypi_0    pypi
+corner                    2.2.4.dev2+g6fba5cd          pypi_0    pypi
+dynesty                   2.1.5                    pypi_0    pypi
+emcee                     3.1.6                    pypi_0    pypi
+fsps                      0.4.8.dev36+g0150b9b          pypi_0    pypi
+h5py                      3.12.1                   pypi_0    pypi
+matplotlib                3.9.4                    pypi_0    pypi
+numpy                     1.26.4           py39h7aa2656_0    conda-forge
+pandas                    2.2.3                    pypi_0    pypi
+pip                       24.3.1             pyh8b19718_2    conda-forge
+pyregion                  2.2.0                    pypi_0    pypi
+python                    3.9.21          h5f1b60f_1_cpython    conda-forge
+regions                   0.8                      pypi_0    pypi
+scipy                     1.13.1           py39h3d5391c_0    conda-forge
+```
 
 Next run this in your python-fsps directory:
 
