@@ -1,8 +1,7 @@
-Here are steps for setting up a conda environment and going from some 
+Here are steps for setting up a conda environment and installing the package, allowing you to go from some 
 input magnitudes to a fitted SED with star formation histories and plots
-with this prospector-based code. For additional resources like an overview 
-of prospector (the package that fits the SEDs based on the magnitudes we give it) and SGAS 1527, see the files found under docs/ For anyone taking over this code the next steps
-that need to be done are also found in the docs directory.
+using this prospector-based code. For additional resources like an overview 
+of prospector (the package that fits the SEDs based on the magnitudes we give it) and SGAS 1527, see the files found under `docs/`. For anyone taking over this code the next steps that need to be done are also found in a file called `nextsteps.txt`, also in the docs directory.
 
 To download and install the package, first clone this repository:
 
@@ -59,9 +58,9 @@ Next run this in your python-fsps directory:
 
 It's a command that needs to be run in order for FSPS to work (python-fsps just being
 a pythony way to access the fsps code, which is in fortran). You'll need to run that command in the python-fsps
-directory whenever you start a new session in your terminal.
+directory whenever you start a new session in your terminal. Or you could probably just edit your bash/zshell script to do it automatically.
 
-Now we're ready to take prospector and make an SED fit to a set of input magnitudes for a given object
+However you do it, now we're ready to take prospector and make an SED fit to a set of input magnitudes for a given object
 or list of objects.
 
 We'll do this with the `prospectin_fits.py` script, which requires the following arguments:
