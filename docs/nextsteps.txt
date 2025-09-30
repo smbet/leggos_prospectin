@@ -7,6 +7,6 @@ Make sure all the plots are being closed in the plot script.
 
 Plots need error bars.
 
-Longer term goal expand this so it can handle other filters and magnitude file naming formats and magnitude units.
+Longer term goal that would make the code so much more useable would be to expand this so it can handle other filters and magnitude file naming formats and magnitude units. That way it can handle other galaxies' magnitude files that weren't using the exact convention that Michael used for the 1527 ones that I was looking at. This could maybe then lead to the next important step, i.e.:
 
 Lastly, Spectra:)
